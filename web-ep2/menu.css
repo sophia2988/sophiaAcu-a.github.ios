@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans';
+    color: grey;
+    background-color: rgb(235, 198, 223);
+}
+#contenedor{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: ghostwhite;
+    border: 1px solid gray;
+    overflow: hidden;
+}
+#cabecera{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100px;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    
+}
+#cabecera a{
+    color: gray;
+    text-decoration: none;
+}
+#menu1{
+    margin: 5px;
+    padding: 5px;
+    flex-grow: 1;
+    flex-basis: 50%;
+    align-items: end;
+}
+#menu1>ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 12pt;
+    height: 100%;
+}
+#menu1 a{
+    color: rgb(88, 84, 88);
+    background-color: rgb(250, 221, 244);
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border: 1px solid rgb(77, 104, 78);
+    border-radius: 15px;
+}
+#menu1 a:hover{
+    background-color: antiquewhite;
+    color: black;
+    cursor: pointer;
+}
+#contenido{
+    display: flex;
+}
+.columna{
+    flex: 1;
+    padding: 10px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+img{
+    max-width: 100%;
+    border-radius: 60px;
+    border: 1px solid wheat;
+}
+p{
+    margin-top: 10px;
+}
+
+.menu{
+    width: 200px;
+    background-color: #eeb6f5;
+}
+
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li{
+    border-bottom: 1px solid gray;
+}
+
+.menu ul li:last-child {
+    border-bottom: none; 
+}
+
+.menu ul li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color:gray;
+}
+
+.menu ul li a:hover {
+    background-color: #b3e7cb;
+}
