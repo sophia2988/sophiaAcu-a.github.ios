@@ -1,0 +1,101 @@
+body{
+    border: 1px solid beige;
+    width: 70%;
+    margin: 20%;
+    font-size: 13pt;
+}
+
+header{
+    align-content: center;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    
+}
+h1{
+    text-align: center;
+}
+nav{
+    height: 100px;
+    ;}
+ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+li{
+    list-style-type: none;
+    margin: 2px;
+
+}
+a{
+    margin: 2px;
+    color: burlywood;
+    text-decoration: none;
+    padding: 10px;
+}
+#contenedor{
+    background-color: bisque;
+    display: grid;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 10px;
+}
+section{
+        
+    align-items: flex-start;
+    padding: 10px;
+    flex: 1;
+}
+aside{
+    width: 40%;
+    margin: 10px;
+    text-align: left;
+    flex: 1;
+   
+}
+.tabla{
+    font-size: 14pt;
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid white;
+    padding: 8px;
+    text-align: left;}
+
+.tabla2{
+    font-size: 13pt;
+    border: 2px solid white;
+    border-collapse: collapse;}
+h3{
+    color: brown;
+    font-size: 14pt;
+}
+.cafe{
+    max-width: 25%;
+  
+    border: 1px solid rgb(219, 117, 86);
+    padding: 15px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: bisque;
+    width: 100%;
+    text-align: center;
+}
+
+#mapa{
+    margin-bottom: 20px;
+    border: 2px solid burlywood;
+}
+
+#media {
+    display: grid;
+    justify-content: center;
+}
+

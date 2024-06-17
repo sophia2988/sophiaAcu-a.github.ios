@@ -1,0 +1,65 @@
+body{
+    border: 1px solid beige;
+    width: 70%;
+    margin: 20%;
+    font-size: 13pt;
+}
+
+header{
+    align-content: center;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    
+}
+h1{
+    text-align: center;
+}
+nav{
+    height: 100px;
+    ;}
+ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+li{
+    list-style-type: none;
+    margin: 2px;
+
+}
+a{
+    margin: 2px;
+    color: burlywood;
+    text-decoration: none;
+    padding: 10px;
+}
+h2{
+    border: 1px solid rgb(21, 21, 117);
+    background-color:rgb(21, 21, 117) ;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+td{
+    border: 1px;
+    border-top: 1px solid burlywood;
+    border-bottom: 1px solid burlywood;
+}
+h3{
+    border: 1px solid rgb(21, 21, 117);
+    background-color:rgb(21, 21, 117) ;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+img{
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 15px;
+   
+}
+#media {
+    display: grid;
+    justify-content: center;
+}
