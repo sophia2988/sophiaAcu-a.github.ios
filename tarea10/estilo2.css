@@ -1,0 +1,97 @@
+body{
+    border: 1px solid white;
+    width: 70%;
+    margin: 20%;
+    font-size: 12pt;
+}
+
+.menu{
+       background-color: bisque;
+       color: black;
+       font-weight: bold;
+       align-items: center;
+}
+ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+li{
+    list-style-type: none;
+    margin: 2px;
+
+}
+a{
+    margin: 2px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+#logo{
+    align-items: initial;
+}
+.contenedor{
+    background-color: white;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 300px;
+    gap: 10px;
+}
+
+aside{
+    width: 40%;
+    margin: 10px;
+    text-align: left;
+    flex: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10pt;
+   
+}
+.tabla1{
+    font-size: 10pt; 
+    border: 1px solid white;
+    background-color: beige;
+    border-collapse: collapse;
+}
+.tabla1 th{
+    background-color: rgb(206, 99, 49);
+}
+.tabla1 td{
+    background-color:  rgba(104, 121, 76, 0.74);
+}
+
+th, td {
+    border: 1px solid white;
+    background-color: rgba(117, 138, 80, 0.74);
+    color: white;
+    padding: 3px;
+    text-align: left;
+}
+
+.tabla2{
+    font-size: 10pt;
+    border-collapse: collapse;}
+.tabla2 th{
+        background-color: rgb(204, 127, 39);
+}
+.tabla2 td{
+    background-color:  rgb(151, 42, 42);
+}
+.pie{    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding: 20px;
+    background-color: rgb(151, 42, 42);
+    color: white;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11pt;
+    
+    
+}
+h2{
+    border-bottom: 1px solid rgba(196, 67, 67, 0.767);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12pt;
+}
