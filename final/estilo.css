@@ -1,0 +1,129 @@
+
+body{
+    background-color: antiquewhite;
+}
+.imagenS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 20px;
+   
+}
+
+.img1 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 900px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.intro h1 {
+    font-family: 'Playwrite CZ', sans-serif;
+    font-size: 20pt;
+}
+.celda{
+    align-content: center;
+    border: 1px solid white;
+    color: antiquewhite;
+    background-color: rgb(241, 87, 172);
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+.tabla1 {
+    border-spacing: 20px; 
+    width: 80%; 
+}
+
+td {
+    text-align: center; 
+    vertical-align: middle; 
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.card1{
+    align-content: center;
+    border: 1px solid white;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+#icon1{
+   text-align: center;
+   color: black;
+   
+}
+.card2{
+    align-content: center;
+    border: 1px solid white;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+#icon2{
+   text-align: center;
+   color: rgb(182, 101, 236);
+   
+}
+.card3{
+    align-content: center;
+    border: 1px solid white;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+#icon3{
+   text-align: center;
+   color: rgb(28, 58, 27);
+   
+}
+.container{
+    display: flex;
+}
+h3{
+    align-items: center;
+    text-align: center;
+}
+h3,p{
+    align-items: center;
+    text-align: center;
+}
+.tabla2{
+    border: 1px solid antiquewhite;
+}
+button{
+    color: blue;
+    background-color: rgb(167, 167, 231);
+    border: 1px solid violet;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    
+        
+}
+#contacto{
+    align-content: center;
+    border: 1px solid white;
+    color: antiquewhite;
+    background-color: rgb(68, 126, 86);
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    align-items: center;
+    text-align: center;
+}
